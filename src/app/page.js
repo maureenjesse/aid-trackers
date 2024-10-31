@@ -29,7 +29,7 @@ export default function Home() {
           <div className="w-36 h-36">
             <Image src="/images/image (1).png" alt="Child holding aid package" width={150} height={150} className="" />
           </div>
-          <div className="w-96 h-80">
+          <div className="w-96 h-90">
             <Image src="/images/image.png" alt="Child in a stroller" width={500} height={300} className="rounded-lg object-cover" />
           </div>
           <div className="w-36 h-36">
