@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Head from 'next/head';
 import styles from './/styles/Home.module.css';
-import How It Works from './how it works.js'
+import Works from './works.js'
 
 export default function Home() {
   return (
@@ -43,6 +43,7 @@ export default function Home() {
           </div>
         </section>
       </main>
+      <Works />
     </div>
   );
 }
