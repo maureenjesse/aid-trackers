@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Head from 'next/head';
 import styles from './/styles/Home.module.css';
-import Works from './works.js'
+import Works from './components/works.js'
 
 export default function Home() {
   return (
