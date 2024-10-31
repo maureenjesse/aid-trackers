@@ -1,3 +1,10 @@
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
 .container {
   font-family: Arial, sans-serif;
 }
@@ -8,6 +15,10 @@
   align-items: center;
   padding: 1rem;
   background-color: #f0f4f8;
+}
+
+.logo-img{
+  width: 20p;
 }
 
 .logo {

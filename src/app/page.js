@@ -1,4 +1,5 @@
-// pages/index.js
+// import '../styles/globals.css';
+
 
 import Image from 'next/image';
 import Link from 'next/link';
@@ -8,6 +9,7 @@ export default function Home() {
     <div className="font-sans text-center">
       {/* Header */}
       <header className="flex justify-between items-center px-8 py-4 bg-white shadow">
+      <Image src="/images/Union.png" alt="Child holding aid package" width={20} height={150} className="" />
         <h1 className="text-2xl font-bold text-gray-800">Aid Tracker</h1>
         <nav>
           <ul className="flex space-x-6">
@@ -25,13 +27,13 @@ export default function Home() {
       <main className="mt-8">
         <div className="flex justify-center space-x-4">
           <div className="w-36 h-36">
-            <Image src="/leftImage.jpg" alt="Child holding aid package" width={150} height={150} className="rounded-lg object-cover" />
+            <Image src="/images/image (1).png" alt="Child holding aid package" width={150} height={150} className="" />
           </div>
-          <div className="w-96 h-60">
-            <Image src="/centerImage.jpg" alt="Child in a stroller" width={500} height={300} className="rounded-lg object-cover" />
+          <div className="w-96 h-80">
+            <Image src="/images/image.png" alt="Child in a stroller" width={500} height={300} className="rounded-lg object-cover" />
           </div>
           <div className="w-36 h-36">
-            <Image src="/rightImage.jpg" alt="Child receiving aid" width={150} height={150} className="rounded-lg object-cover" />
+            <Image src="/images/image (11).png" alt="Child receiving aid" width={150} height={150} className="rounded-lg object-cover" />
           </div>
         </div>
 
