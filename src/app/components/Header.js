@@ -11,12 +11,12 @@ const Header = () => {
       <div className={styles.logo}> <span className={styles.highlight}>Aid</span>  Tracker</div>
       <nav className={styles.nav}>
         <a href="#home">Home</a>
-        <a href="#howitworks">How It Works</a>
+        <a href="#how-it-works">How It Works</a>
         <a href="#features">Features</a>
         <a href="#beneficicia">Beneficiaries</a>
         <a href="#donors">Donors</a>
-        <button className={styles.contactButton}>Contact Us</button>
       </nav>
+        <button className={styles.contactButton}>Contact Us</button>
     </header>
   );
 };

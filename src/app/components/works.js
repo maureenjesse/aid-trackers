@@ -12,7 +12,7 @@ export default function Works() {
   ];
 
   return (
-    <section className={styles.section} id='#howitworks'>
+    <section className={styles.section} >
       <h2 className={styles.heading} id="how-it-works">How it Works</h2>
       <div className={styles.cards}>
         {steps.map((step, index) => (

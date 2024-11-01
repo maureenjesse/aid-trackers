@@ -5,7 +5,8 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 40px 20px;
+    padding: 100px 20px;
+
   }
   
   .images {
@@ -18,7 +19,7 @@
   .heroImage {
     width: 100px;
     height: auto;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     top: 20px;
     position: inherit;
   }
@@ -26,13 +27,13 @@
  .heroImage2  {
     /* width: 100px; */
     height: auto;
-    border-radius: 5px;
+    /* border-radius: 5px; */
   }
 
   .heroImage3 {
     width: 100px;
     height: auto;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     position: inherit;
     top: 20px;
   }
@@ -68,7 +69,7 @@
     color: white;
     border: none;
     padding: 10px 20px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     cursor: pointer;
   }
   

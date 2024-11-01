@@ -42,7 +42,8 @@
   height: 40px;
   border-radius: 50%;
   background-image: url('../../../public/images/Group1.png');
-  background-color: #0070f3;
+  /* background-color: #0070f3; */
+  background-color: #000;
   margin: 0 auto 15px;
 }
 

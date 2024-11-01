@@ -1,4 +1,5 @@
 // components/Feature.js
+import Image from 'next/image';
 import styles from '../styles/Feature.module.css';
 
 const Feature = () => {
@@ -22,7 +23,7 @@ const Feature = () => {
           </blockquote>
         </div>
         <div className={styles.imageContainer}>
-          <img src="/images/Delivery app for tracking order with GPS.png" alt="Tracking illustration" className={styles.image} />
+          <Image src="/images/Delivery app for tracking order with GPS.png" alt="Tracking illustration" className={styles.image} width={400} height={400}/>
         </div>
       </div>
     </section>

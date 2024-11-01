@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section className={styles.mainSection} id='#home'>
       <div className={styles.images}>
-      <Image src="/images/image (1).png" alt="Child receiving aid" className={styles.heroImage} width={100} height={200}/>
+            <Image src="/images/image (1).png" alt="Child receiving aid" className={styles.heroImage} width={100} height={200}/>
             <Image src="/images/image.png" alt="Mother with child" className={styles.heroImage2} width={600} height={250}/>
             <Image src="/images/image (11).png" alt="Child looking at aid worker" className={styles.heroImage3} width={100} height={200}/>
       </div>
