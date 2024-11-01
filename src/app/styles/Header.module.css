@@ -32,6 +32,10 @@
     cursor: pointer;
   }
   
+  .highlight{
+    color: #007bff;
+  }
+  
   .contactButton:hover {
     background: #0056b3;
   }
