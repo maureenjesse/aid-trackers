@@ -18,7 +18,7 @@ const PrivacySection = () => {
         </blockquote>
       </div>
       <div className={styles.imageContainer}>
-        <Image src="/Rectangle19.png" alt="Privacy illustration" width={300} height={200} />
+        <Image src="/images/privacy.png" alt="Privacy illustration" width={300} height={300} />
       </div>
     </section>
   );

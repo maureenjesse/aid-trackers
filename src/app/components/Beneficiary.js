@@ -7,7 +7,7 @@ export default function Beneficiary() {
     <div className={styles.container}>
       <h1>Beneficiary</h1>
       <div className={styles.images}>
-        <div className={styles.wrapper1}>
+        <div className={styles.wrapper}>
         <Image src="/images/image (1).png" alt="Child receiving aid" className={styles.heroImage} width={100} height={200}/>
         </div>
         <div className={styles.wrapper2}>

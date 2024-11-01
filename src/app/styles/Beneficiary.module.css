@@ -50,5 +50,15 @@
       flex-direction: column;
       gap: 20px;
     }
+    .wrapper{
+        display: none;
+    }
+    .wrapper2{
+        width: 80%;
+        border: 1px solid;
+    }
+    .wrapper3{
+        display: none;
+    }
   }
   
