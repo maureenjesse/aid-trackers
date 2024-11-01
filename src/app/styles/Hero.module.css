@@ -1,0 +1,78 @@
+/* styles/MainSection.module.css */
+
+.mainSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .images {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .leftImage, .centerImage, .rightImage {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .textContent {
+    max-width: 600px;
+  }
+  
+  #header {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .highlight {
+    color: #007bff;
+  }
+  
+  #text {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .getStarted {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .learnMore {
+    color: #007bff;
+    text-decoration: none;
+    align-self: center;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .mainSection {
+      padding: 20px;
+    }
+    .images {
+      flex-direction: column;
+      align-items: center;
+    }
+    .leftImage,.rightImage{
+        display: none;
+        visibility: hidden;
+    }
+  }
+  
