@@ -7,14 +7,14 @@ import styles from "../styles/Header.module.css";
 const Header = () => {
   return (
     <header className={styles.header}>
-         {/* <Image src="/images/Union.png" alt="Child receiving aid" width={20} height={20}/> */}
+         <Image src="/images/Union.png" alt="company logo" className={styles.companylogo} width={20} height={20}/>
       <div className={styles.logo}> <span className={styles.highlight}>Aid</span>  Tracker</div>
       <nav className={styles.nav}>
-        <a href="#">Home</a>
-        <a href="#">How It Works</a>
-        <a href="#">Features</a>
-        <a href="#">Beneficiaries</a>
-        <a href="#">Donors</a>
+        <a href="#home">Home</a>
+        <a href="#howitworks">How It Works</a>
+        <a href="#features">Features</a>
+        <a href="#beneficicia">Beneficiaries</a>
+        <a href="#donors">Donors</a>
         <button className={styles.contactButton}>Contact Us</button>
       </nav>
     </header>
