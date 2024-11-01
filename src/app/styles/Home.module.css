@@ -29,12 +29,20 @@
   }
   
   .navLinks a {
-    margin: 0 15px;
+  
+    margin: 0 20px;
     color: #333;
     text-decoration: none;
     font-size: 16px;
   }
   
+.navLinks a:hover{
+  color: #0070f3;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  font-weight: 500;
+
+}
+
   .contactButton {
     background-color: #0070f3;
     color: #fff;

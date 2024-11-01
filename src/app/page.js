@@ -2,6 +2,8 @@ import Image from 'next/image';
 import Head from 'next/head';
 import styles from './/styles/Home.module.css';
 import Works from './components/works.js'
+import Benefits from './components/Benefits.js'
+import Feature from './components/Feature.js'
 
 export default function Home() {
   return (
@@ -44,6 +46,8 @@ export default function Home() {
         </section>
       </main>
       <Works />
+      <Benefits />
+      <Feature />
     </div>
   );
 }
