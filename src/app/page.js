@@ -37,7 +37,7 @@ export default function Home() {
           </div>
           <div className={styles.textContent}>
             <h2>Ensuring <span className={styles.highlight}>Transparency</span> and <span className={styles.highlight}>Efficient</span> Aid Distribution in Nigeria</h2>
-            <p>Ensuring that aid reaches those who need it the most with blockchain based humanitarian aid"</p>
+            <p>Ensuring that aid reaches those who need it the most with blockchain based humanitarian aid</p>
             <div className={styles.buttonGroup}>
               <button className={styles.getStartedButton}>Get Started</button>
               <button className={styles.learnMoreButton}>Learn More</button>
