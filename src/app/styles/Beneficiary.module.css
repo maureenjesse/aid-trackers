@@ -1,0 +1,54 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .images {
+    display: flex;
+    gap: 10px;
+
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .wrapper {
+    flex: 1;
+    display: flex;
+    max-width: 150px;
+  }
+ 
+
+
+  .content h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .content p {
+    color: #666;
+  }
+  
+  .register {
+    padding: 10px 20px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  .register-button:hover {
+    background-color: #005bb5;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    .images {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  

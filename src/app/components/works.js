@@ -18,8 +18,8 @@ export default function Works() {
         {steps.map((step, index) => (
           <div key={index} className={styles.card}>
             <div className={styles.iconPlaceholder}>
-            {/* <Image src="/images/Group1.png" alt="distribution" className={styles.heroImage2} width={400} height={400}/> */}
-            </div>
+           
+            </div> 
             <h3 className={styles.title}>{step.title}</h3>
             <p className={styles.description}>{step.description}</p>
           </div>
