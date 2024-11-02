@@ -73,6 +73,10 @@
   @media screen and (orientation:portrait){
     .logo{
       position: relative;
-      left: -74%;
+      left: -62%;
+    }
+
+    .companylogo{
+      /* margin-left: 10px; */
     }
   }

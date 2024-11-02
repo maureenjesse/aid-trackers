@@ -75,5 +75,11 @@
     .heroImage,.heroImage3{
         display: none;
     }
+
+    .heroImage2{
+      left: 0;
+      width: 100%;
+      position: relative;
+    }
   }
   
