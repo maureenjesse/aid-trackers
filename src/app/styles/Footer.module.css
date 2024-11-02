@@ -1,6 +1,9 @@
 /* components/Footer.module.css */
 
 .footer {
+  position: relative;
+  bottom: 0;
+  right: 0;
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
@@ -61,6 +64,7 @@
   .socialIcons {
     display: flex;
     gap: 0.5rem;
+    justify-content: center;
     margin-top: 1rem;
   }
   
