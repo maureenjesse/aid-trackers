@@ -39,14 +39,13 @@
 
 .iconPlaceholder {
   width: 50px;
-  border: 1px solid;
   height: 50px;
   border-radius: 50%;
   background-repeat: no-repeat;
   background-image: url('../../../public/images/Group1.png');
   background-position: cover;
-  /* background-color: #0070f3; */
-  /* background-color: #000; */
+  background-size: cover;
+  
   margin: 0 auto 15px;
 }
 
