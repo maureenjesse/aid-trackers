@@ -30,7 +30,7 @@ const Footer = () => {
       <div className={styles.footerSection}>
         <h3>Contact us</h3>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <p>+23483561<br />921</p>
+        <p>+23483561921</p>
         <div className={styles.socialIcons}>
           <Image src="/images/Group 5.png" alt="Facebook"  width={20} height={20}/>
           <Image src="/images/Group 11.png" alt="Instagram" width={20} height={20}/>

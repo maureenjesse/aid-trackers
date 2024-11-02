@@ -8,7 +8,7 @@
   .images {
     display: flex;
     gap: 10px;
-
+    padding: 10px;
     justify-content: center;
     margin-bottom: 20px;
   }
@@ -19,7 +19,10 @@
     max-width: 150px;
   }
  
-
+  .heroImage{
+    position: relative;
+    top: 20px;
+  }
 
   .content h2 {
     font-size: 1.5rem;
@@ -50,15 +53,16 @@
       flex-direction: column;
       gap: 20px;
     }
-    .wrapper{
+    .heroImage{
         display: none;
     }
-    .wrapper2{
-        width: 80%;
-        border: 1px solid;
+   
+    .heroImage2{
+      position: absolute;
+      margin-left: 10px;
+      border: 1px solid;
+
     }
-    .wrapper3{
-        display: none;
-    }
+
   }
   
