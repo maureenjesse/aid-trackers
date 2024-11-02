@@ -33,14 +33,20 @@
 
 .card:hover {
   transform: translateY(-5px);
+  cursor: pointer;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .iconPlaceholder {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  border: 1px solid;
+  height: 50px;
   border-radius: 50%;
-  background-color: #0070f3;
+  background-repeat: no-repeat;
+  background-image: url('../../../public/images/Group1.png');
+  background-position: cover;
+  /* background-color: #0070f3; */
+  /* background-color: #000; */
   margin: 0 auto 15px;
 }
 
@@ -55,4 +61,8 @@
   font-size: 1rem;
   color: #666;
   line-height: 1.5;
+}
+
+.image2{
+  width: 2%;
 }
