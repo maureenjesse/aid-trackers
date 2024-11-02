@@ -73,6 +73,6 @@
   @media all and (orientation:portrait){
     .logo{
       position: relative;
-      left: -62%;
+      left: -60%;
     }
   }
