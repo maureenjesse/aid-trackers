@@ -7,7 +7,10 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 2rem;
     width: 100%;
-    max-width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+    /* border: 1px solid; */
+    max-width: 1000px;
   }
   
   .imageContainer {
@@ -30,10 +33,7 @@
     border-radius: 5px;
   }
   
-  .location, .amount {
-    margin: 0;
-  }
-  
+ 
   .content {
     padding: 1.5rem;
   }
