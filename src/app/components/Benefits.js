@@ -19,7 +19,7 @@ export default function Benefits() {
           </a>
         </div>
         <div className={styles.imageContainer}>
-          <Image src="/images/Abou-us-Video.png" alt="Blockchain Benefit" className={styles.image} />
+          <Image src="/images/Abou-us-Video.png" alt="Blockchain Benefit" className={styles.image} width={200} height={200}/>
         </div>
       </div>
     </section>

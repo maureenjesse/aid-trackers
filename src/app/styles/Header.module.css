@@ -60,13 +60,19 @@
       position: fixed;
       /* left: 0; */
     }
-    .logo{
+    /* .logo{
       position: relative;
-      left: -66%;
-    }
+      left: -68%;
+    } */
+   
     .contactButton{
       display: none;
     }
   }
   
-  
+  @media all and (orientation:portrait){
+    .logo{
+      position: relative;
+      left: -62%;
+    }
+  }
