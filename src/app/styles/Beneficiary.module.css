@@ -1,5 +1,7 @@
 .container {
     max-width: 800px;
+    height: 100vh;
+    /* border: 1px solid; */
     margin: 0 auto;
     text-align: center;
     padding: 20px;
@@ -51,18 +53,27 @@
   @media (max-width: 600px) {
     .images {
       flex-direction: column;
+      margin-top: 120px;
       gap: 20px;
     }
     .heroImage{
-        display: none;
+      display: none;
     }
-   
+    
     .heroImage2{
       position: absolute;
-      margin-left: 10px;
-      border: 1px solid;
-
+      left: 0;
+      /* right: 0; */
+      width: 100%;
+      /* border: 1px solid; */
+      
     }
+    
+    .content{
+      margin-top: 150px;
+      
+    }
+
 
   }
   
