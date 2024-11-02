@@ -1,6 +1,6 @@
 // components/HowItWorks.js
 import Image from 'next/image';
-import styles from '..//styles/Works.module.css';
+import styles from '../styles/Works.module.css';
 
 export default function Works() {
   const steps = [
