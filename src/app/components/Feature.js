@@ -18,8 +18,8 @@ const Feature = () => {
             Our <a href="#" className={styles.link}>delivery model</a> helps you cut costs and deliver within budget.
           </p>
           <blockquote className={styles.quote}>
-            "Simform is quick to identify larger problems with the software, so we
-            decided to expand our scope to build new modules."
+            &quot;Simform is quick to identify larger problems with the software, so we
+            decided to expand our scope to build new modules.&quot;
           </blockquote>
         </div>
         <div className={styles.imageContainer}>
