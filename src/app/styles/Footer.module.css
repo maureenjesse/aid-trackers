@@ -1,6 +1,9 @@
 /* components/Footer.module.css */
 
 .footer {
+  position: relative;
+  bottom: 0;
+  right: 0;
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
@@ -16,6 +19,12 @@
   
   .logocontainer{
     display: flex;
+  }
+
+  .companylogo{
+    position: relative;
+    top: 20px;
+    right: 5px;
   }
 
   .logo {
@@ -38,7 +47,7 @@
   }
   
   .icon {
-    width: 100px;
+    width: 150px;
     height: auto;
   }
   
@@ -49,17 +58,19 @@
   
   .linksList li {
     margin: 0.5rem 0;
+    cursor: pointer;
   }
   
   .socialIcons {
     display: flex;
     gap: 0.5rem;
+    justify-content: center;
     margin-top: 1rem;
   }
   
   .socialIcons img {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     cursor: pointer;
     transition: opacity 0.3s ease;
   }

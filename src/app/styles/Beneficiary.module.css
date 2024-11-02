@@ -1,5 +1,7 @@
 .container {
     max-width: 800px;
+    height: 100vh;
+    /* border: 1px solid; */
     margin: 0 auto;
     text-align: center;
     padding: 20px;
@@ -8,7 +10,7 @@
   .images {
     display: flex;
     gap: 10px;
-
+    padding: 10px;
     justify-content: center;
     margin-bottom: 20px;
   }
@@ -19,7 +21,10 @@
     max-width: 150px;
   }
  
-
+  .heroImage{
+    position: relative;
+    top: 20px;
+  }
 
   .content h2 {
     font-size: 1.5rem;
@@ -48,17 +53,28 @@
   @media (max-width: 600px) {
     .images {
       flex-direction: column;
+      margin-top: 120px;
       gap: 20px;
     }
-    .wrapper{
-        display: none;
+    .heroImage{
+      display: none;
     }
-    .wrapper2{
-        width: 80%;
-        border: 1px solid;
+    
+    .heroImage2{
+      position: absolute;
+      left: 0;
+     
+      /* right: 0; */
+      width: 100%;
+      /* border: 1px solid; */
+      
     }
-    .wrapper3{
-        display: none;
+    
+    .content{
+      margin-top: 150px;
+      
     }
+
+
   }
   

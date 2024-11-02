@@ -60,12 +60,23 @@
       position: fixed;
       /* left: 0; */
     }
-    .logo{
+    /* .logo{
       position: relative;
-      left: -290px;
-    }
+      left: -68%;
+    } */
+   
     .contactButton{
       display: none;
     }
   }
   
+  @media screen and (orientation:portrait){
+    .logo{
+      position: relative;
+      left: -62%;
+    }
+
+    .companylogo{
+      /* margin-left: 10px; */
+    }
+  }

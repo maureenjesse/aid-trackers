@@ -6,7 +6,7 @@ import styles from "../styles/Hero.module.css";
 
 const Hero = () => {
   return (
-    <section className={styles.mainSection} id='#home'>
+    <section className={styles.mainSection} id='home'>
       <div className={styles.images}>
             <Image src="/images/image (1).png" alt="Child receiving aid" className={styles.heroImage} width={100} height={200}/>
             <Image src="/images/image.png" alt="Mother with child" className={styles.heroImage2} width={600} height={250}/>
@@ -17,7 +17,7 @@ const Hero = () => {
           Ensuring <span className={styles.highlight}>Transparency</span> and{" "}
           <span className={styles.highlight}>Efficient</span> Aid Distribution in Nigeria
         </h1>
-        <p id='text'>Ensuring that aid reaches those who need it the most with blockchain</p>
+        <p id='text'>Ensuring that aid reaches those who need it the most with blockchain based humanitarian aid</p>
         <div className={styles.buttons}>
           <button className={styles.getStarted}>Get Started</button>
           <a href="#" className={styles.learnMore}>Learn More →</a>

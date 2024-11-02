@@ -28,14 +28,13 @@
     margin-bottom: 20px;
   }
   
-  .imageWrapper {
-    flex: 1;
-    max-width: 150px;
-  }
+ .heroImage,.heroImage3{
+    position: relative;
+    top: 20px;
+    
+ }
   
-  .image {
-    border-radius: 5px;
-  }
+
   
   .content {
     text-align: center;
@@ -72,6 +71,15 @@
   @media (max-width: 600px) {
     .images {
       flex-direction: column;
+    }
+    .heroImage,.heroImage3{
+        display: none;
+    }
+
+    .heroImage2{
+      left: 0;
+      width: 100%;
+      position: relative;
     }
   }
   

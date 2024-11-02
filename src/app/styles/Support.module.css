@@ -1,3 +1,9 @@
+.container{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid; */
+}
+
 .card {
     display: flex;
     flex-direction: column;
@@ -7,7 +13,11 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 2rem;
     width: 100%;
-    max-width: 800px;
+    height: 52vh;
+    margin: 10px auto;
+    padding: 10px;
+    /* border: 1px solid; */
+    max-width: 1000px;
   }
   
   .imageContainer {
@@ -30,10 +40,7 @@
     border-radius: 5px;
   }
   
-  .location, .amount {
-    margin: 0;
-  }
-  
+ 
   .content {
     padding: 1.5rem;
   }
@@ -62,6 +69,7 @@
   @media (min-width: 768px) {
     .card {
       flex-direction: row;
+      border: 1px sol;
     }
   
     .imageContainer {
@@ -70,7 +78,30 @@
     }
   
     .content {
-      width: 50%;
+      width: 60%;
+      /* padding: 10%; */
     }
   }
   
+
+  @media  all and (orientation:portrait) {
+    
+    .container{
+        height: 340vh;
+    }
+    
+    .card{
+        flex-direction: column;
+        /* border: 1px solid; */
+        height: 105vh;
+    }
+
+    .image{
+        width: 95%;
+    }
+
+    .content h3{
+        padding-top: 10px;
+    }
+
+  }

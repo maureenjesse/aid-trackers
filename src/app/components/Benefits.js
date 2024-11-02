@@ -1,5 +1,6 @@
 // components/Benefits.js
 import styles from '../styles/Benefits.module.css';
+import Image from 'next/image'
 
 export default function Benefits() {
   return (
@@ -18,7 +19,7 @@ export default function Benefits() {
           </a>
         </div>
         <div className={styles.imageContainer}>
-          <img src="/images/Abou-us-Video.png" alt="Blockchain Benefit" className={styles.image} />
+          <Image src="/images/Abou-us-Video.png" alt="Blockchain Benefit" className={styles.image} width={200} height={200}/>
         </div>
       </div>
     </section>

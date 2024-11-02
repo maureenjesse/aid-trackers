@@ -4,7 +4,7 @@ import styles from '../styles/Feature.module.css';
 
 const Feature = () => {
   return (
-    <section className={styles.featureSection} id='#features'>
+    <section className={styles.featureSection} id='features'>
       <h2 className={styles.title}>Features</h2>
       <div className={styles.featureContainer}>
         <div className={styles.textContainer}>
