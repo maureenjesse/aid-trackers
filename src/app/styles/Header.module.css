@@ -47,8 +47,10 @@
     background: #007bff;
     color: white;
     border: none;
+    right: 0;
+    position: relative;
     padding: 10px 20px;
-    /* border-radius: 5px; */
+    border-radius: 5px;
     cursor: pointer;
   }
   
@@ -66,6 +68,7 @@
 .navLinks {
   list-style-type: none;
   display: flex;
+
   gap: 1.5rem;
 }
 
@@ -132,9 +135,9 @@
   }
 
   .navLinks {
-    display: flex; /* Show nav links on larger screens */
-    position: static;
-    flex-direction: row;
+    display: none; /* Show nav links on larger screens */
+    /* position: static;
+    flex-direction: row; */
   }
 }
 
