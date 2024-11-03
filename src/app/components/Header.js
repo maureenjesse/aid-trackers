@@ -1,7 +1,7 @@
 // components/Header.js
 "use client";
 import Image from 'next/image';
-import Link from 'next/link';
+// import Link from 'next/link';
 import { useState } from 'react';
 import React from "react";
 import styles from "../styles/Header.module.css";
