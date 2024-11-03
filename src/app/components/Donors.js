@@ -15,7 +15,7 @@ export default function Donors() {
                 <p className={styles.description}>
                     Ensuring that aid reaches those who need it the most with blockchain based humanitarian aid
                 </p>
-                <button className={styles.registerButton}>Register</button>
+                <button className={styles.registerButton}>Connect Wallet</button>
             </div>
         </div>
     );

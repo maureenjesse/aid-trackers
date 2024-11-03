@@ -19,7 +19,7 @@ export default function Beneficiary() {
       <div className={styles.content}>
         <h2 className={styles.head}>Register as a Beneficiary</h2>
         <p className={styles.text}>Ensuring that aid reaches those who need it the most with blockchain based humanitarian aid</p>
-        <button className={styles.register}>Register</button>
+        <button className={styles.register}>Connect Wallet</button>
       </div>
     </div>
   );
