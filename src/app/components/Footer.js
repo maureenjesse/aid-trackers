@@ -19,12 +19,11 @@ const Footer = () => {
       <div className={styles.footerSection}>
         <h3>Links</h3>
         <ul className={styles.linksList}>
-          <li>Home</li>
-          <li>How it Works</li>
-          <li>Features</li>
-          <li>Partners</li>
-          <li>Beneficiaries</li>
-          <li>Donor</li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#how-it-works">How it Works</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#beneficiary">Beneficiaries</a></li>
+        <li><a href="#donors">Donors</a></li>
         </ul>
       </div>
       <div className={styles.footerSection}>
