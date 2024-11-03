@@ -70,6 +70,7 @@
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
+<<<<<<< HEAD
     cursor: pointer;
   }
 
@@ -80,6 +81,8 @@
     border: none;
     padding: 10px;
     border-radius: 5px;
+=======
+>>>>>>> e281c3defd5ca57944b5ca9b78b3a9b2319b2c70
     cursor: pointer;
   }
   
