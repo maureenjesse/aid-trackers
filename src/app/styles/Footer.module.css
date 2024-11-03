@@ -56,11 +56,15 @@
     padding: 0;
   }
   
-  .linksList li {
+  .linksList li a{
     margin: 0.5rem 0;
+    color: #333;
+    text-decoration: none;
     cursor: pointer;
   }
   
+
+
   .socialIcons {
     display: flex;
     gap: 0.5rem;
