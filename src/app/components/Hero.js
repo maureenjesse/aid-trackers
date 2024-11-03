@@ -19,7 +19,7 @@ const Hero = () => {
         </h1>
         <p id='text'>Ensuring that aid reaches those who need it the most with blockchain based humanitarian aid</p>
         <div className={styles.buttons}>
-          <button className={styles.getStarted}>Get Started</button>
+          <button className={styles.getStarted}> <a href='#beneficiary'>Get Started</a> </button>
           <a href="#" className={styles.learnMore}>Learn More →</a>
         </div>
       </div>
