@@ -53,6 +53,17 @@
     border-radius: 5px;
     cursor: pointer;
   }
+
+  .WalletButton {
+    background: #007bff;
+    color: white;
+    border: none;
+    right: 0;
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
   
   .highlight{
     color: #007bff;

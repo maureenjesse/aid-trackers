@@ -26,7 +26,7 @@ const Header = () => {
         <a href="#beneficiary">Beneficiaries</a>
         <a href="#donors">Donors</a>
       </nav>
-        <button className={styles.contactButton}>Contact Us</button>
+        <button className={styles.contactButton}>Connect Wallet</button>
         <div className={`${styles.menuIcon} ${isOpen ? styles.open : ''}`} onClick={toggleMenu}>
         <div></div>
         <div></div>
@@ -38,6 +38,7 @@ const Header = () => {
         <li><a href="#features">Features</a></li>
         <li><a href="#beneficiary">Beneficiaries</a></li>
         <li><a href="#donors">Donors</a></li>
+        <button className={styles.WalletButton}>Connect Wallet</button>
       </ul>
     </header>
   );
