@@ -8,10 +8,20 @@
     position: fixed;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     background: #f8f9fa;
   }
   
+  .logocontainer{
+    display: flex;
+  }
+
+  .companylogo{
+    position: relative;
+    top: 20px;
+    right: 5px;
+  }
+
   .logo {
     font-size: 24px;
     position: inherit;
@@ -60,23 +70,9 @@
       position: fixed;
       /* left: 0; */
     }
-    /* .logo{
-      position: relative;
-      left: -60%;
-    } */
    
     .contactButton{
       display: none;
     }
   }
   
-  @media screen and (orientation:portrait){
-    .logo{
-      position: relative;
-      left: -55%;
-    }
-
-    .companylogo{
-      /* margin-left: 10px; */
-    }
-  }
