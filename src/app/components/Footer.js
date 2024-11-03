@@ -8,7 +8,7 @@ const Footer = () => {
       <div className={styles.footerSection}>
         <div className={styles.logocontainer}>
       <Image src="/images/Union.png" alt="company logo" className={styles.companylogo} width={20} height={20}/>
-        <h2 className={styles.logo}>Aid <span className={styles.highlight}>Tracker</span></h2>
+        <h2 className={styles.logo}>Aid <span className={styles.txt}>Tracker</span></h2>
         </div>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
         <div className={styles.badges}>
