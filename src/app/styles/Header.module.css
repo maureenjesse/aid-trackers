@@ -62,7 +62,7 @@
     }
     /* .logo{
       position: relative;
-      left: -68%;
+      left: -60%;
     } */
    
     .contactButton{
@@ -73,7 +73,7 @@
   @media screen and (orientation:portrait){
     .logo{
       position: relative;
-      left: -62%;
+      left: -55%;
     }
 
     .companylogo{
