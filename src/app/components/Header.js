@@ -1,10 +1,18 @@
 // components/Header.js
+"use client";
 import Image from 'next/image';
-
+import Link from 'next/link';
+import { useState } from 'react';
 import React from "react";
 import styles from "../styles/Header.module.css";
 
 const Header = () => {
+  
+    const [isOpen, setIsOpen] = useState(false);
+  
+    const toggleMenu = () => {
+      setIsOpen(!isOpen);
+    };
   return (
     <header className={styles.header}>
           <div className={styles.logocontainer}>
@@ -19,6 +27,18 @@ const Header = () => {
         <a href="#donors">Donors</a>
       </nav>
         <button className={styles.contactButton}>Contact Us</button>
+        <div className={`${styles.menuIcon} ${isOpen ? styles.open : ''}`} onClick={toggleMenu}>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <ul className={`${styles.navLinks} ${isOpen ? styles.showMenu : ''}`}>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#how-it-works">How it Works</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#beneficiary">Beneficiaries</a></li>
+        <li><a href="#donors">Donors</a></li>
+      </ul>
     </header>
   );
 };
