@@ -5,10 +5,10 @@ import Image from 'next/image';
 
 const WalletModal = ({ onClose }) => {
     const walletOptions = [
-        { name: 'MetaMask', icon: '/images/metamask-icon.png' },
-        { name: 'WalletConnect', icon: '/images/walletconnect-icon.png' },
-        { name: 'Coinbase Wallet', icon: '/images/coinbase-icon.png' },
-        { name: 'Trust Wallet', icon: '/images/trustwallet-icon.png' },
+        { name: 'Defly', icon: '/images/image 3.png' },
+        { name: 'PeraWallet', icon: '/images/image 4.png' },
+        { name: 'Trust Wallet', icon: '/images/OIP.png' },
+        // { name: 'Coinbase Wallet', icon: '/images/coinbase-icon.png' },
     ];
 
     return (
