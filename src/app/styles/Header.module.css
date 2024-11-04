@@ -109,7 +109,9 @@
   bottom: 10px;
   z-index: -1;
   height: 100vh;
-  right: 20px;
+  opacity: 90%;
+  right: 50px;
+  width: 40%;
   background-color: #333;
   padding: 1em;
   /* border-radius: 8px; */

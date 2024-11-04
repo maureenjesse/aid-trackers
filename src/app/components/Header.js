@@ -32,6 +32,7 @@ const Header = () => {
                 <a href="#donors">Donors</a>
             </nav>
             <button className={styles.contactButton} onClick={toggleModal}>Connect Wallet</button>
+            
             <div className={`${styles.menuIcon} ${isOpen ? styles.open : ''}`} onClick={toggleMenu}>
                 <div></div>
                 <div></div>
