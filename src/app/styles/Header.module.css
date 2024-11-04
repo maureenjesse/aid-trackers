@@ -79,12 +79,14 @@
 .navLinks {
   list-style-type: none;
   display: flex;
-
+  position: relative;
+  bottom: 10px;
   gap: 1.5rem;
 }
 
 .navLinks li a {
   color: #fff;
+  top: 20px;
   text-decoration: none;
   font-size: 1rem;
 }
@@ -96,21 +98,33 @@
 
 /* Show nav links if menu is open */
 .showMenu {
+  /* border: 1px solid blue; */
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 60px;
+  top: -16px;
+  bottom: 10px;
+  z-index: -1;
+  height: 100vh;
   right: 20px;
   background-color: #333;
-  padding: 1rem;
-  border-radius: 8px;
+  padding: 1em;
+  /* border-radius: 8px; */
+}
+
+.showMenu li , .WalletButton{
+margin-top: 10px;
+position: relative;
+top: 30px;
+text-align: center;
 }
 
 /* Hamburger icon */
 .menuIcon {
   /* border: 1px solid; */
   position: relative;
-  right: 20px;
+  right: 25px;
+  bottom: 10px;
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -129,6 +143,7 @@
 /* Open menu icon animation */
 .open div:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
+  background: #fff;
 }
 
 .open div:nth-child(2) {
@@ -136,7 +151,8 @@
 }
 
 .open div:nth-child(3) {
-  transform: rotate(-45deg) translate(5px, -5px);
+  background: #fff;
+  transform: rotate(-50deg) translate(5px, -5px);
 }
 
 /* Responsive styling */
