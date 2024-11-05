@@ -28,10 +28,18 @@ const WalletModal = ({ onClose }) => {
                 
                 {selectedWallet ? (
                     <div className={styles.largeDialog}>
+                        <div className={styles.imagecontainer}>
                         <Image src={selectedWallet.icon} alt={`${selectedWallet.name} icon`} width={100} height={100} />
-                        <h2>{selectedWallet.name} Wallet Selected</h2>
+                        <h2>{selectedWallet.name} Wallet </h2>
                         <p>connect with {selectedWallet.name}. and Enjoy secure and seamless transactions!</p>
-                        {/* <button className={styles.connectButton} onClick={handleCloseDialog}>Close</button> */}
+                        </div>
+                        <div className={styles.qrcode}>
+                        {/* this is where you'll place the QR code */}
+                            <Image src="/images/QR.png" alt="QR CODE"  width={200} height={200} />
+                        <p>scan to connect {selectedWallet.name}. </p>
+
+                        </div>
+                       
                     </div>
                 ) : (
                     <>

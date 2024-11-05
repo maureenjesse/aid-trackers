@@ -40,17 +40,19 @@
     width: 600px; /* Set desired width for large dialog */
     max-width: 90%;
     padding: 30px;
+    /* display: grid; */
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
+    /* flex-direction: row; */
     align-items: center;
     text-align: center;
-    background-color: #f9f9f9; /* Optional: different background */
+    /* background-color: #f9f9f9; Optional: different background */
     border-radius: 10px; /* Optional: rounded corners */
     margin: 0 auto;
 }
 
 .largeDialog h2 {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     font-size: 24px;
 }
 
@@ -60,23 +62,11 @@
     margin-top: 10px;
 }
 
-.connectButton {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+.imagecontainer{
+    /* border: 1px solid; */
+    /* position: relative; */
+    margin-right: 20px;
 }
-
-.connectButton:hover {
-    background-color: #45a049;
-}
-
-
 
 
 .modalTitle {
