@@ -11,10 +11,10 @@ export default function Partners() {
       </h2>
       <div className={styles.logoContainer}>
         <Image src="/images/hd.png" alt="Sampath Cream House" className={styles.logo} width={200} height={20}/>
-        <Image src="/images/logo-9.png" alt="Home Deals.lk" className={styles.logo} width={200} height={50}/>
+        <Image src="/images/sampath.png" alt="sapath cream house" className={styles.logo} width={200} height={50}/>
         <Image src="/images/logo8.png" alt="Bikes Logo" className={styles.logo} width={200} height={50} />
         <Image src="/images/logo5.png" alt="AdClipse" className={styles.logo} width={200} height={50} />
-        <Image src="/images/logo-7.png" alt="PJC Bridge" className={styles.logo} width={200} height={50} />
+        <Image src="/images/logo7.png" alt="PJC Bridge" className={styles.logo} width={200} height={50} />
       </div>
     </section>
   );
