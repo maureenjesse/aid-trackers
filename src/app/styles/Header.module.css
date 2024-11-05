@@ -31,6 +31,22 @@
     font-weight: bold;
   }
 
+  .miniAlert {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    opacity: 0.9;
+}
+
+
   .nav {
     display: flex;
     gap: 15px;

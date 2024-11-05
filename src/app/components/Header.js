@@ -9,12 +9,15 @@ import WalletModal from './WalletModal';
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const [showMiniAlert, setShowMiniAlert] = useState(false);
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
 
     const toggleModal = () => {
+        setShowMiniAlert(true);
+        setTimeout(() => setShowMiniAlert(false), 1000); // Hide alert after 2 seconds
         setIsModalOpen(!isModalOpen);
     };
 
@@ -48,6 +51,12 @@ const Header = () => {
             </ul>
 
             {isModalOpen && <WalletModal onClose={toggleModal} />}
+
+            {showMiniAlert && (
+                <div className={styles.miniAlert}>
+                    Please connect wallet
+                </div>
+            )}
         </header>
     );
 };
