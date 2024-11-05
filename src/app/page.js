@@ -13,6 +13,8 @@ import Testimonials from './components/Testimonials.js'
 import Donors from './components/Donors.js'
 import Support from './components/Support.js'
 import Footer from './components/Footer.js'
+import BeneficiaryProfile from './components/BeneficiaryProfile.js'
+import DonorProfile from 'components/DonorProfile.js'
 
 export default function Home() {
   return (
