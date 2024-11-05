@@ -30,8 +30,8 @@ const WalletModal = ({ onClose }) => {
                     <div className={styles.largeDialog}>
                         <Image src={selectedWallet.icon} alt={`${selectedWallet.name} icon`} width={100} height={100} />
                         <h2>{selectedWallet.name} Wallet Selected</h2>
-                        <p>You're now connected with {selectedWallet.name}. Enjoy secure and seamless transactions!</p>
-                        <button className={styles.connectButton} onClick={handleCloseDialog}>Close</button>
+                        <p>connect with {selectedWallet.name}. and Enjoy secure and seamless transactions!</p>
+                        {/* <button className={styles.connectButton} onClick={handleCloseDialog}>Close</button> */}
                     </div>
                 ) : (
                     <>
