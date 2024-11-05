@@ -8,6 +8,7 @@ import Benefits from './components/Benefits.js'
 import Feature from './components/Feature.js'
 import Update from './components/Update.js'
 import Privacy from './components/Privacy.js'
+import Partners from './components/Partners.js'
 import Beneficiary from './components/Beneficiary.js'
 import Testimonials from './components/Testimonials.js'
 import Donors from './components/Donors.js'
@@ -30,6 +31,7 @@ export default function Home() {
       <Feature />
       <Update />
       <Privacy />
+      <Partners />
       <Beneficiary />
       <Testimonials />
       <Donors />
