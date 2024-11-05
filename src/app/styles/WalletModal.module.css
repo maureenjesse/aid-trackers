@@ -1,16 +1,5 @@
 /* styles/WalletModal.module.css */
-.modalOverlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-}
+
 
 .modalOverlay {
     position: fixed;
@@ -20,6 +9,7 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     z-index: 1000;
@@ -28,7 +18,7 @@
 .modalContent {
     background-color: #fff;
     border-radius: 10px;
-    max-width: 500px;
+    max-width: 500px; /* Main modal width */
     width: 90%;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -47,10 +37,16 @@
 }
 
 .largeDialog {
+    width: 600px; /* Set desired width for large dialog */
+    max-width: 90%;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background-color: #f9f9f9; /* Optional: different background */
+    border-radius: 10px; /* Optional: rounded corners */
+    margin: 0 auto;
 }
 
 .largeDialog h2 {
@@ -67,7 +63,7 @@
 .connectButton {
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #0070f3;
+    background-color: #4CAF50;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -77,29 +73,11 @@
 }
 
 .connectButton:hover {
-    background-color: #4b9eeb;
+    background-color: #45a049;
 }
 
 
-.modalContent {
-    background: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    width: 50%;
-    max-width: 300px;
-    position: relative;
-    text-align: center;
-}
 
-.closeButton {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 20px;
-    background: none;
-    border: none;
-    cursor: pointer;
-}
 
 .modalTitle {
     margin-bottom: 20px;

@@ -7,8 +7,8 @@ const WalletModal = ({ onClose }) => {
     const [selectedWallet, setSelectedWallet] = useState(null);
 
     const walletOptions = [
-        { name: 'Defly', icon: '/images/image 3.png' },
-        { name: 'Pera', icon: '/images/image 4.png' },
+        { name: 'Defly', icon: '/images/image 3.svg' },
+        { name: 'Pera', icon: '/images/pera.svg' },
         { name: 'Deffi', icon: '/images/OIP.png' },
     ];
 
