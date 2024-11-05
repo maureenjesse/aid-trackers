@@ -79,6 +79,8 @@
     .heroImage2{
       position: absolute;
       left: 0;
+      right: 0;
+      height: 30vh;
      
       /* right: 0; */
       width: 100%;
