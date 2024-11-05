@@ -7,8 +7,11 @@ import WalletModal from "./WalletModal";
 
 export default function Donors() {
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const [showMiniAlert, setShowMiniAlert] = useState(false);
 
     const toggleModal = () => {
+        setShowMiniAlert(true);
+        setTimeout(() => setShowMiniAlert(false), 2000); // Hide alert after 2 seconds
         setIsModalOpen(!isModalOpen);
     };
 
@@ -29,6 +32,12 @@ export default function Donors() {
             </div>
 
             {isModalOpen && <WalletModal onClose={toggleModal} />}
+
+            {showMiniAlert && (
+                <div className={styles.miniAlert}>
+                    Please connect wallet
+                </div>
+            )}
         </div>
     );
 }
