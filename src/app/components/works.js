@@ -1,12 +1,9 @@
-<<<<<<< HEAD
+
 // components/Works.js
 import Image from 'next/image';
 import styles from '../styles/works.module.css';
-=======
-// components/HowItWorks.js
-import Image from "next/image";
-import styles from "../styles/works.module.css";
->>>>>>> 5183af6 (new profile components)
+
+
 
 export default function Works() {
   const steps = [

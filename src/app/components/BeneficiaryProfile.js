@@ -1,6 +1,7 @@
+"use client";
 import { useState } from "react";
 import Image from "next/image";
-import styles from " ../styles/BeneficiaryPrrofile.module.css";
+// import styles from " ../styles/BeneficiaryProfile.module.css";
 
 export default function BeneficiaryProfile() {
   const [formData, setFormData] = useState({

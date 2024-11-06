@@ -1,10 +1,9 @@
 // components/Benefits.js
-<<<<<<< HEAD
+
 import styles from '../styles/Benefits.module.css';
-import Image from 'next/image'
-=======
-import styles from "../styles/Benefits.module.css";
->>>>>>> 5183af6 (new profile components)
+import Image from 'next/image';
+// import styles from "../styles/Benefits.module.css";
+
 
 export default function Benefits() {
   return (
@@ -32,15 +31,16 @@ export default function Benefits() {
           </a>
         </div>
         <div className={styles.imageContainer}>
-<<<<<<< HEAD
           <Image src="/images/Abou-us-Video.png" alt="Blockchain Benefit" className={styles.image} width={200} height={200}/>
-=======
-          <img
+
+          <Image
             src="/images/Abou-us-Video.png"
             alt="Blockchain Benefit"
             className={styles.image}
+            width={200}
+            height={200}
           />
->>>>>>> 5183af6 (new profile components)
+
         </div>
       </div>
     </section>
